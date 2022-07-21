@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 import uuid
 
 #필요한 메소드 만들기
-def imgDown():
-    sub_page_url = "https://movie.naver.com/movie/bi/mi/basic.naver?code=187347"
+def imgDown(sub_page_url):
+    #sub_page_url = "https://movie.naver.com/movie/bi/mi/basic.naver?code=187347"
 
     # sub_page_url 요청하면  --> 응답(html)
     # 요청하기
